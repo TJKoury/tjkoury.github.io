@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="TJ Koury — Chief of Space Systems, EdgeSource Corporation. TS/SCI. Astrodynamics, STK, WebAssembly, and decentralized space data.">
+  <meta name="description" content="TJ Koury — Chief of Space Systems, EdgeSource Corporation. Astrodynamics, STK, WebAssembly, and decentralized space data.">
   <meta name="author" content="TJ Koury">
   <meta property="og:title" content="TJ Koury — Resume">
   <meta property="og:description" content="Chief of Space Systems, EdgeSource Corporation. 20+ years across DoD, IC, and commercial space.">
@@ -88,30 +88,6 @@
       hyphens: auto;
     }
 
-    /* ===== SKILLS TABLE ===== */
-    .skills-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 0.5rem;
-    }
-
-    .skills-table td {
-      padding: 0.2rem 0;
-      vertical-align: top;
-      font-size: 0.92rem;
-    }
-
-    .skills-table td:first-child {
-      font-weight: 700;
-      width: 160px;
-      white-space: nowrap;
-      padding-right: 1rem;
-    }
-
-    .skills-table td:last-child {
-      color: #333;
-    }
-
     /* ===== PROJECT ENTRIES ===== */
     .entry {
       margin-bottom: 1rem;
@@ -121,14 +97,6 @@
       font-size: 1rem;
       font-weight: 700;
       margin-bottom: 0.15rem;
-    }
-
-    .entry h3 .ref {
-      font-weight: 400;
-      font-size: 0.85rem;
-      color: #777;
-      vertical-align: super;
-      font-style: normal;
     }
 
     .entry p {
@@ -142,56 +110,6 @@
       font-style: italic;
       margin-top: 0.15rem;
     }
-
-    /* ===== ACHIEVEMENTS ===== */
-    ul.achievements {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul.achievements li {
-      padding-left: 1.1rem;
-      position: relative;
-      margin-bottom: 0.5rem;
-      font-size: 0.92rem;
-    }
-
-    ul.achievements li::before {
-      content: '\2013';
-      position: absolute;
-      left: 0;
-    }
-
-    /* ===== FOOTNOTES ===== */
-    .footnotes {
-      margin-top: 2.5rem;
-      padding-top: 1rem;
-      border-top: 1px solid #ccc;
-    }
-
-    .footnotes h2 {
-      border-bottom: none;
-      padding-bottom: 0;
-      margin-bottom: 0.5rem;
-    }
-
-    .footnotes ol {
-      padding-left: 1.5rem;
-      font-size: 0.85rem;
-      color: #555;
-    }
-
-    .footnotes ol li {
-      margin-bottom: 0.2rem;
-      word-break: break-all;
-    }
-
-    .footnotes ol li a {
-      color: #555;
-      text-decoration: none;
-      border-bottom: 1px solid #ddd;
-    }
-    .footnotes ol li a:hover { color: #1a1a1a; border-color: #999; }
 
     /* ===== DOWNLOAD BAR ===== */
     .download-bar {
@@ -223,8 +141,6 @@
     @media (max-width: 600px) {
       body { padding: 1.5rem 1.25rem 5rem; }
       header h1 { font-size: 1.6rem; }
-      .skills-table td:first-child { width: auto; display: block; padding-bottom: 0; }
-      .skills-table td:last-child { display: block; padding-bottom: 0.4rem; }
       .download-bar { left: 1rem; right: 1rem; justify-content: center; }
     }
 
@@ -243,24 +159,22 @@
     <h1>TJ Koury</h1>
     <p class="subtitle">Chief of Space Systems, EdgeSource Corporation</p>
     <p class="contact">
-      <a href="mailto:tj@tjkoury.com">tj@tjkoury.com</a> &ensp;·&ensp;
-      <a href="https://digitalarsenal.io">digitalarsenal.io</a> &ensp;·&ensp;
-      <a href="https://github.com/DigitalArsenal">github.com/DigitalArsenal</a> &ensp;·&ensp;
-      <a href="https://linkedin.com/in/tj-k-5754554/">LinkedIn</a> &ensp;·&ensp;
+      <a href="mailto:tj@tjkoury.com">tj@tjkoury.com</a> &ensp;&middot;&ensp;
+      <a href="https://digitalarsenal.io">digitalarsenal.io</a> &ensp;&middot;&ensp;
+      <a href="https://github.com/DigitalArsenal">github.com/DigitalArsenal</a> &ensp;&middot;&ensp;
+      <a href="https://linkedin.com/in/tj-k-5754554/">LinkedIn</a> &ensp;&middot;&ensp;
       <a href="https://www.sns.id/domain?domain=tjkoury">tjkoury.sol</a>
     </p>
-    <p class="contact">USAFA 2001 &middot; Top Secret&thinsp;/&thinsp;SCI (Current) &middot; CI Polygraph (2014)</p>
+    <p class="contact">USAFA 2001</p>
   </header>
 
   <section>
     <h2>Summary</h2>
     <p>
       Space systems engineer and software architect with 20+ years across DoD, IC, and commercial
-      space &mdash; JFCC SPACE, NGA, USSTRATCOM, Space Systems Command, and the Aerospace Data
-      Facility East. Active TS/SCI. Founded DigitalArsenal.io and built the Space Data Network, a
-      decentralized protocol for exchanging standardized space operations data, along with the first
-      WebAssembly astrodynamics tools to run natively in the browser &mdash; replacing software that
-      typically costs $50K&ndash;$500K per year to license.
+      space. Founded DigitalArsenal.io; built the Space Data Network, a decentralized protocol for
+      standardized space data, and the first WebAssembly astrodynamics tools to run natively in the
+      browser.
     </p>
   </section>
 
@@ -268,60 +182,56 @@
     <h2>Products &amp; Open Source</h2>
 
     <div class="entry">
-      <h3>OrbPro <span class="ref">[1]</span> &amp; SpaceAware.io <span class="ref">[15]</span></h3>
+      <h3>OrbPro &amp; SpaceAware.io</h3>
       <p>
-        3D orbital visualization engine built on CesiumJS &mdash; real-time satellite rendering, sensor
-        field-of-view and viewshed modeling, access and conjunction analysis &mdash; and the SSA platform
-        built on it, with AI-driven natural-language globe control over MCP, 608 modeled entity types,
-        and a CCSDS-based REST API.
+        3D orbital visualization engine on CesiumJS &mdash; real-time satellites, sensor and viewshed
+        modeling, conjunction analysis &mdash; and the SSA platform built on it, with AI globe control
+        over MCP and a CCSDS-based REST API.
       </p>
       <div class="tags">CesiumJS, WebGL, TypeScript, SaaS</div>
     </div>
 
     <div class="entry">
-      <h3>Space Data Network <span class="ref">[2][3]</span></h3>
+      <h3>Space Data Network</h3>
       <p>
-        Decentralized peer-to-peer protocol for space data exchange over libp2p, using GossipSub and
-        Kademlia DHT discovery with content-addressed storage, plus a data marketplace with trust-based
-        reputation and encrypted transactions.
+        Decentralized peer-to-peer protocol for space data over libp2p &mdash; GossipSub, Kademlia DHT,
+        content-addressed storage &mdash; with a trust-based data marketplace.
       </p>
       <div class="tags">Go, libp2p, TypeScript</div>
     </div>
 
     <div class="entry">
-      <h3>Space Data Standards <span class="ref">[10]</span></h3>
+      <h3>Space Data Standards</h3>
       <p>
-        127 FlatBuffer schemas defining a complete type system for space operations: orbital elements,
-        ephemeris, conjunction messages, tracking, catalog management, identity, and marketplace protocols.
+        127 FlatBuffer schemas typing space operations: orbital elements, ephemeris, conjunctions,
+        tracking, identity, and marketplace protocols.
       </p>
       <div class="tags">FlatBuffers, Schema design</div>
     </div>
 
     <div class="entry">
-      <h3>Tudat-WASM <span class="ref">[11]</span> &amp; Basilisk-WASM <span class="ref">[12]</span></h3>
+      <h3>Tudat-WASM &amp; Basilisk-WASM</h3>
       <p>
-        First WebAssembly ports of TU Delft&rsquo;s Tudat astrodynamics toolbox and the Basilisk spacecraft
-        simulation framework &mdash; high-fidelity propagation, trajectory optimization, and 310+ C++ classes
-        of attitude, power, and sensor dynamics, all running in the browser with no native install.
+        First WebAssembly ports of TU Delft&rsquo;s Tudat astrodynamics toolbox and the Basilisk
+        spacecraft simulator &mdash; high-fidelity propagation and 310+ dynamics classes in the browser.
       </p>
       <div class="tags">WASM, C++, Astrodynamics</div>
     </div>
 
     <div class="entry">
-      <h3>FlatBuffers WASM <span class="ref">[4][5]</span> &amp; FlatSQL <span class="ref">[6][7]</span></h3>
+      <h3>FlatBuffers WASM &amp; FlatSQL</h3>
       <p>
-        Browser port of Google&rsquo;s FlatBuffers compiler generating code for 13 languages, with zero-copy
-        deserialization at ~250M ops/sec, and a SQL layer over FlatBuffers binary data using SQLite virtual
-        tables and content-addressed indexing at ~580K ops/sec.
+        Browser port of Google&rsquo;s FlatBuffers compiler (13 languages, ~250M ops/sec zero-copy reads)
+        and a SQL layer over FlatBuffers data via SQLite virtual tables (~580K ops/sec).
       </p>
       <div class="tags">WASM, C++, Go, SQLite</div>
     </div>
 
     <div class="entry">
-      <h3>HD Wallet WASM <span class="ref">[8][9]</span></h3>
+      <h3>HD Wallet WASM</h3>
       <p>
-        Hierarchical deterministic wallet library in WebAssembly &mdash; BIP-32/39/44 across 50+ networks
-        with Ed25519, secp256k1, and secp256r1 signing, FIPS 140-3 compliant.
+        WebAssembly HD wallet library &mdash; BIP-32/39/44 across 50+ networks with Ed25519, secp256k1,
+        and secp256r1 signing, FIPS 140-3 compliant.
       </p>
       <div class="tags">WASM, Rust, Cryptography</div>
     </div>
@@ -334,24 +244,19 @@
       <h3>EdgeSource Corporation &mdash; Chief of Space Systems</h3>
       <div class="tags">2026 &ndash; Present</div>
       <p>
-        Leads the space systems portfolio, directing astrodynamics, space domain awareness, and
-        mission software delivery for DoD and IC customers.
+        Leads the space systems portfolio: astrodynamics, space domain awareness, and mission software
+        for DoD and IC customers.
       </p>
     </div>
 
     <div class="entry">
-      <h3>DigitalArsenal.io, Inc. &mdash; Founder <span class="ref">[1]</span></h3>
+      <h3>DigitalArsenal.io, Inc. &mdash; Founder</h3>
       <div class="tags">January 2019 &ndash; 2026</div>
       <p>
-        Created OrbPro, a CesiumJS fork with an in-browser astrodynamics suite propagating orbits via C++
-        compiled to WebAssembly, plus the shader-based SensorShadow viewshed class and a sensor-coverage
-        library using convex/concave hull algorithms. Architected SpaceDataStandards.org
-        <span class="ref">[10]</span> and the decentralized space data network on libp2p, IPFS/IPNS, and
-        FlatBuffers, securing a Department of Commerce contract for strictly-typed schema standards.
-        Accepted into multiple SDA TAP LAB cohorts <span class="ref">[13]</span> and awarded for
-        tap.spaceaware.io <span class="ref">[14]</span>. Built a secp256k1 software signing system with a
-        novel proof-of-funds mechanism, a PyTorch NLP pipeline turning natural-language catalog queries
-        into SQL via LocalLLaMA and HuggingFace models, and Orbit Viz for Celestrak.
+        Created OrbPro, a CesiumJS fork with in-browser WebAssembly astrodynamics, shader-based viewshed
+        analysis, and sensor-coverage libraries. Architected SpaceDataStandards.org and the Space Data
+        Network, winning a Department of Commerce schema contract. Multiple SDA TAP LAB cohorts, awarded
+        for tap.spaceaware.io; built an NLP catalog-query pipeline and Orbit Viz for Celestrak.
       </p>
     </div>
 
@@ -359,20 +264,15 @@
       <h3>Lyteworx Automation Systems, LLC &mdash; Chief Engineer, Space Systems Division</h3>
       <div class="tags">November 2014 &ndash; 2026</div>
       <p>
-        <strong>Turion Space / Space Systems Command.</strong> Built the Space-Based Interceptor demo at
-        sbi.spaceaware.io <span class="ref">[16]</span>, supporting Golden Dome award capture from SSC and
-        briefed in person; created an offline NEI scheduling viewer and set NEI capture requirements with
-        NGA/SXOS and SSDP. Supported Saber Astronautics <span class="ref">[17]</span> on web applications
-        and AST Mobile live telemetry, containerized and deployed to Kubernetes via ArgoCD.
+        <strong>Turion Space / Space Systems Command.</strong> Built the Space-Based Interceptor demo
+        supporting Golden Dome award capture, briefed in person; set NEI capture requirements with
+        NGA/SXOS. Supported Saber Astronautics web applications and AST Mobile telemetry on Kubernetes.
       </p>
       <p>
-        <strong>NGA / IC / DoD &mdash; Washington Innovation Center, ADF-East.</strong> Built the WIC Imagery
-        Retrieval System in Node-RED and REDIS, rank-ordering image requests against NGA holdings and feeding
-        ~3&thinsp;TB of daily imagery to Large Data OMAR. Developed FP, a CesiumJS/Vue tool fusing time-dynamic
-        National imagery with SIGINT into near-real-time georectified detects, used operationally in 2016
-        during Operation Inherent Resolve. Also delivered an ELK geospatial application with GeoIP/OSINT
-        enrichment for SSDP across multiple IC networks, an encrypted cyber payload delivery system using
-        O-LLVM, and Lycan CPI <span class="ref">[18]</span> for AI/NLP critical infrastructure analysis.
+        <strong>NGA / IC / DoD.</strong> Built the WIC Imagery Retrieval System feeding ~3&thinsp;TB of
+        daily imagery to Large Data OMAR; developed FP, a CesiumJS/Vue imagery&ndash;SIGINT fusion tool
+        used operationally in 2016; delivered ELK geospatial analytics, an encrypted payload delivery
+        system, and Lycan CPI.
       </p>
     </div>
 
@@ -380,11 +280,9 @@
       <h3>Analytical Graphics, Inc. (AGI) &mdash; Senior Systems Engineer</h3>
       <div class="tags">July 2012 &ndash; October 2014</div>
       <p>
-        Integration specialist at ADF-East. Built tooling for the Advanced Campaign Cell to generate Coherent
-        Change Detection opportunities from National remote sensing assets, and an STK tool computing look
-        angles and range to SAR glints for item identification in National and commercial imagery. Delivered a
-        custom STK overflight tool for an Air Force space defense program, led OGC-compliant filter parsers and
-        web services in the SSA Software Suite (C#/Java), and built STK-to-CesiumJS orbit visualization.
+        Integration specialist at ADF-East: Coherent Change Detection tooling, an STK SAR-glint
+        look-angle tool, a custom STK overflight tool for an Air Force space defense program, OGC web
+        services in the SSA Software Suite, and STK-to-CesiumJS visualization.
       </p>
     </div>
 
@@ -392,13 +290,10 @@
       <h3>Scitor Corporation &mdash; Senior Systems Engineer</h3>
       <div class="tags">August 2007 &ndash; July 2012</div>
       <p>
-        DevOps lead and scrum master for Space-Track.org <span class="ref">[19]</span> under JFCC SPACE/J3,
-        rebuilding the site around 90M+ records and 30,000+ accounts with REST/URIQuery services replacing
-        legacy PERL query pages, and enabling secure transfer across SIPRNET and NIPRNET. Created a conjunction
-        tracking database and back-end API, a W3C-compliant XML generator, a NIEM-compliant space schema, and
-        Conjunction Summary Message interfaces; partnered with AGI on a conjunction risk-reduction prototype.
-        Designed the JSpOC knowledge management system, supported CFE Program transfer from AFSPC to USSTRATCOM,
-        and served as primary editor for the JFCC SPACE FOC CONOPS.
+        DevOps lead and scrum master for Space-Track.org under JFCC SPACE/J3 &mdash; rebuilt the site
+        around 90M+ records and 30,000+ accounts with REST services across SIPRNET and NIPRNET. Built
+        conjunction tracking and CSM interfaces, designed the JSpOC knowledge management system, and
+        edited the JFCC SPACE FOC CONOPS.
       </p>
     </div>
 
@@ -406,57 +301,25 @@
       <h3>United States Air Force &mdash; Officer, Space Operations</h3>
       <div class="tags">May 2001 &ndash; August 2007 &middot; 3rd Space Operations Squadron</div>
       <p>
-        <strong>Chief of Ground Systems Engineering</strong> (2006&ndash;2007): owned ground system procedure
-        review including cryptographic key rollover, wrote the 50th Space Wing classified status reporting
-        system, and drafted a connectivity program from STRATCOM Commander requirements that was briefed and
-        implemented as a test plan by the 50th Space Wing and U.S. Army Forces Strategic Command.
+        <strong>Chief of Ground Systems Engineering</strong> (2006&ndash;2007): owned ground procedure
+        review including cryptographic key rollover; wrote the 50th Space Wing classified status
+        reporting system.
       </p>
       <p>
-        <strong>ECHO Crew Commander</strong> (2006): led a 10-member Combat Mission Ready crew and emergency
-        response for 160 personnel across two operations centers, managing 900+ satellite supports on $3.9B in
-        space assets at a 99.9% mission success rate. <strong>Wideband Global Satellite Engineer / Chief of
-        Procedures</strong> (2005&ndash;2006): certified in the first military class of the Boeing WGS Space
-        Vehicle Operator course; on the government CCS-C project team at ISI Colorado Springs overseeing Boeing,
-        Integral Systems, SI International, RT Logic, and Aerospace, and wrote 3,000+ lines of TAO scripts
-        forming the constellation&rsquo;s operational command and control suite.
+        <strong>ECHO Crew Commander</strong> (2006): led a 10-member crew managing 900+ satellite
+        supports on $3.9B in space assets at 99.9% mission success.
+        <strong>WGS Engineer / Chief of Procedures</strong> (2005&ndash;2006): first military Boeing WGS
+        operator class; wrote 3,000+ lines of TAO scripts forming the constellation&rsquo;s command and
+        control suite.
       </p>
       <p>
-        <strong>Weapons and Tactics Officer</strong> (2003&ndash;2004): developed tactics for the $2.1B DSCS
-        constellation and Wideband Global, designed the Army/Air Force command-and-telemetry cross-flow concept,
-        and built 500+ HMI screens for the CCS-C ground system to cover contractual shortfalls.
-        <strong>Flight training and instruction</strong> (2001&ndash;2003): 100+ hours UH-1H (Army Rotor Wing
-        Qualification, Ft. Rucker) and 130+ hours T-34 (Naval Undergraduate Pilot Training, Whiting/Pensacola);
-        instructed 500+ cadets at the USAF Academy Athletic Department.
+        <strong>Weapons and Tactics Officer</strong> (2003&ndash;2004): tactics for the $2.1B DSCS
+        constellation; built 500+ HMI screens for the CCS-C ground system.
+        <strong>Flight training</strong> (2001&ndash;2003): 230+ rotor and fixed-wing hours; instructed
+        500+ cadets at the USAF Academy.
       </p>
     </div>
   </section>
-
-  <nav class="footnotes" aria-label="References">
-    <h2>Links</h2>
-    <ol>
-      <li><a href="https://digitalarsenal.io">digitalarsenal.io</a> &mdash; OrbPro &amp; company site</li>
-      <li><a href="https://digitalarsenal.github.io/space-data-network">digitalarsenal.github.io/space-data-network</a> &mdash; SDN documentation</li>
-      <li><a href="https://github.com/DigitalArsenal/space-data-network">github.com/DigitalArsenal/space-data-network</a> &mdash; SDN source</li>
-      <li><a href="https://digitalarsenal.github.io/flatbuffers">digitalarsenal.github.io/flatbuffers</a> &mdash; FlatBuffers WASM documentation</li>
-      <li><a href="https://github.com/DigitalArsenal/flatbuffers">github.com/DigitalArsenal/flatbuffers</a> &mdash; FlatBuffers WASM source</li>
-      <li><a href="https://digitalarsenal.github.io/flatsql">digitalarsenal.github.io/flatsql</a> &mdash; FlatSQL documentation</li>
-      <li><a href="https://github.com/DigitalArsenal/flatsql">github.com/DigitalArsenal/flatsql</a> &mdash; FlatSQL source</li>
-      <li><a href="https://digitalarsenal.github.io/hd-wallet-wasm">digitalarsenal.github.io/hd-wallet-wasm</a> &mdash; HD Wallet documentation</li>
-      <li><a href="https://github.com/DigitalArsenal/hd-wallet-wasm">github.com/DigitalArsenal/hd-wallet-wasm</a> &mdash; HD Wallet source</li>
-      <li><a href="https://github.com/DigitalArsenal/spacedatastandards.org">github.com/DigitalArsenal/spacedatastandards.org</a> &mdash; Space Data Standards</li>
-      <li><a href="https://github.com/DigitalArsenal/tudat-wasm">github.com/DigitalArsenal/tudat-wasm</a> &mdash; Tudat-WASM source</li>
-      <li><a href="https://github.com/DigitalArsenal/basilisk">github.com/DigitalArsenal/basilisk</a> &mdash; Basilisk-WASM source</li>
-      <li><a href="https://sdataplab.org">sdataplab.org</a> &mdash; SDA TAP LAB</li>
-      <li><a href="https://tap.spaceaware.io">tap.spaceaware.io</a> &mdash; TAP LAB space catalog explorer</li>
-      <li><a href="https://spaceaware.io">spaceaware.io</a> &mdash; SpaceAware platform (API at api.spaceaware.io)</li>
-      <li><a href="https://sbi.spaceaware.io">sbi.spaceaware.io</a> &mdash; Space-Based Interceptor demo</li>
-      <li><a href="https://saberastro.com">saberastro.com</a> &mdash; Saber Astronautics</li>
-      <li><a href="https://lycancpi.com">lycancpi.com</a> &mdash; Lycan CPI</li>
-      <li><a href="https://www.space-track.org">space-track.org</a> &mdash; JFCC SPACE public catalog</li>
-      <li><a href="https://linkedin.com/in/tj-k-5754554/">linkedin.com/in/tj-k-5754554</a> &mdash; LinkedIn</li>
-      <li><a href="https://www.sns.id/domain?domain=tjkoury">tjkoury.sol</a> &mdash; Solana Name Service domain</li>
-    </ol>
-  </nav>
 
   <aside class="download-bar" role="complementary" aria-label="Download resume">
     <button class="download-btn" id="dl-pdf" aria-label="Download as PDF">PDF</button>
@@ -476,75 +339,51 @@
       github: 'https://github.com/DigitalArsenal',
       email: 'tj@tjkoury.com',
       sol: 'tjkoury.sol',
-      clearance: 'USAFA 2001 · Top Secret / SCI (Current) · CI Polygraph (2014)',
+      education: 'USAFA 2001',
       qr: 'https://tjkoury.com',
 
-      summary: 'Space systems engineer and software architect with 20+ years across DoD, IC, and commercial space — JFCC SPACE, NGA, USSTRATCOM, Space Systems Command, and the Aerospace Data Facility East. Active TS/SCI. Founded DigitalArsenal.io and built the Space Data Network, a decentralized protocol for exchanging standardized space operations data, along with the first WebAssembly astrodynamics tools to run natively in the browser — replacing software that typically costs $50K–$500K per year to license.',
+      summary: 'Space systems engineer and software architect with 20+ years across DoD, IC, and commercial space. Founded DigitalArsenal.io; built the Space Data Network, a decentralized protocol for standardized space data, and the first WebAssembly astrodynamics tools to run natively in the browser.',
 
       projects: [
-        { name: 'OrbPro & SpaceAware.io', text: '3D orbital visualization engine built on CesiumJS — real-time satellite rendering, sensor field-of-view and viewshed modeling, access and conjunction analysis — and the SSA platform built on it, with AI-driven natural-language globe control over MCP, 608 modeled entity types, and a CCSDS-based REST API.' },
-        { name: 'Space Data Network', text: 'Decentralized peer-to-peer protocol for space data exchange over libp2p, using GossipSub and Kademlia DHT discovery with content-addressed storage, plus a data marketplace with trust-based reputation and encrypted transactions.' },
-        { name: 'Space Data Standards', text: '127 FlatBuffer schemas defining a complete type system for space operations: orbital elements, ephemeris, conjunction messages, tracking, catalog management, identity, and marketplace protocols.' },
-        { name: 'Tudat-WASM & Basilisk-WASM', text: 'First WebAssembly ports of TU Delft’s Tudat astrodynamics toolbox and the Basilisk spacecraft simulation framework — high-fidelity propagation, trajectory optimization, and 310+ C++ classes of attitude, power, and sensor dynamics, all running in the browser with no native install.' },
-        { name: 'FlatBuffers WASM & FlatSQL', text: 'Browser port of Google’s FlatBuffers compiler generating code for 13 languages, with zero-copy deserialization at ~250M ops/sec, and a SQL layer over FlatBuffers binary data using SQLite virtual tables and content-addressed indexing at ~580K ops/sec.' },
-        { name: 'HD Wallet WASM', text: 'Hierarchical deterministic wallet library in WebAssembly — BIP-32/39/44 across 50+ networks with Ed25519, secp256k1, and secp256r1 signing, FIPS 140-3 compliant.' }
+        { name: 'OrbPro & SpaceAware.io', text: '3D orbital visualization engine on CesiumJS — real-time satellites, sensor and viewshed modeling, conjunction analysis — and the SSA platform built on it, with AI globe control over MCP and a CCSDS-based REST API.' },
+        { name: 'Space Data Network', text: 'Decentralized peer-to-peer protocol for space data over libp2p — GossipSub, Kademlia DHT, content-addressed storage — with a trust-based data marketplace.' },
+        { name: 'Space Data Standards', text: '127 FlatBuffer schemas typing space operations: orbital elements, ephemeris, conjunctions, tracking, identity, and marketplace protocols.' },
+        { name: 'Tudat-WASM & Basilisk-WASM', text: 'First WebAssembly ports of TU Delft’s Tudat astrodynamics toolbox and the Basilisk spacecraft simulator — high-fidelity propagation and 310+ dynamics classes in the browser.' },
+        { name: 'FlatBuffers WASM & FlatSQL', text: 'Browser port of Google’s FlatBuffers compiler (13 languages, ~250M ops/sec zero-copy reads) and a SQL layer over FlatBuffers data via SQLite virtual tables (~580K ops/sec).' },
+        { name: 'HD Wallet WASM', text: 'WebAssembly HD wallet library — BIP-32/39/44 across 50+ networks with Ed25519, secp256k1, and secp256r1 signing, FIPS 140-3 compliant.' }
       ],
 
       experience: [
         {
           role: 'EdgeSource Corporation — Chief of Space Systems',
           dates: '2026 – Present',
-          text: 'Leads the space systems portfolio, directing astrodynamics, space domain awareness, and mission software delivery for DoD and IC customers.'
+          text: 'Leads the space systems portfolio: astrodynamics, space domain awareness, and mission software for DoD and IC customers.'
         },
         {
           role: 'DigitalArsenal.io, Inc. — Founder',
           dates: 'January 2019 – 2026',
-          text: 'Created OrbPro, a CesiumJS fork with an in-browser astrodynamics suite propagating orbits via C++ compiled to WebAssembly, plus the shader-based SensorShadow viewshed class and a sensor-coverage library using convex/concave hull algorithms. Architected SpaceDataStandards.org and the decentralized space data network on libp2p, IPFS/IPNS, and FlatBuffers, securing a Department of Commerce contract for strictly-typed schema standards. Accepted into multiple SDA TAP LAB cohorts and awarded for tap.spaceaware.io. Built a secp256k1 software signing system with a novel proof-of-funds mechanism, a PyTorch NLP pipeline turning natural-language catalog queries into SQL via LocalLLaMA and HuggingFace models, and Orbit Viz for Celestrak.'
+          text: 'Created OrbPro, a CesiumJS fork with in-browser WebAssembly astrodynamics, shader-based viewshed analysis, and sensor-coverage libraries. Architected SpaceDataStandards.org and the Space Data Network, winning a Department of Commerce schema contract. Multiple SDA TAP LAB cohorts, awarded for tap.spaceaware.io; built an NLP catalog-query pipeline and Orbit Viz for Celestrak.'
         },
         {
           role: 'Lyteworx Automation Systems, LLC — Chief Engineer, Space Systems Division',
           dates: 'November 2014 – 2026',
-          text: 'Turion Space / Space Systems Command: built the Space-Based Interceptor demo at sbi.spaceaware.io, supporting Golden Dome award capture from SSC and briefed in person; created an offline NEI scheduling viewer and set NEI capture requirements with NGA/SXOS and SSDP. Supported Saber Astronautics on web applications and AST Mobile live telemetry, containerized and deployed to Kubernetes via ArgoCD. NGA / IC / DoD — Washington Innovation Center, ADF-East: built the WIC Imagery Retrieval System in Node-RED and REDIS, rank-ordering image requests against NGA holdings and feeding ~3 TB of daily imagery to Large Data OMAR. Developed FP, a CesiumJS/Vue tool fusing time-dynamic National imagery with SIGINT into near-real-time georectified detects, used operationally in 2016 during Operation Inherent Resolve. Also delivered an ELK geospatial application with GeoIP/OSINT enrichment for SSDP across multiple IC networks, an encrypted cyber payload delivery system using O-LLVM, and Lycan CPI for AI/NLP critical infrastructure analysis.'
+          text: 'Turion Space / Space Systems Command: built the Space-Based Interceptor demo supporting Golden Dome award capture, briefed in person; set NEI capture requirements with NGA/SXOS. Supported Saber Astronautics web applications and AST Mobile telemetry on Kubernetes. NGA / IC / DoD: built the WIC Imagery Retrieval System feeding ~3 TB of daily imagery to Large Data OMAR; developed FP, a CesiumJS/Vue imagery–SIGINT fusion tool used operationally in 2016; delivered ELK geospatial analytics, an encrypted payload delivery system, and Lycan CPI.'
         },
         {
           role: 'Analytical Graphics, Inc. (AGI) — Senior Systems Engineer',
           dates: 'July 2012 – October 2014',
-          text: 'Integration specialist at ADF-East. Built tooling for the Advanced Campaign Cell to generate Coherent Change Detection opportunities from National remote sensing assets, and an STK tool computing look angles and range to SAR glints for item identification in National and commercial imagery. Delivered a custom STK overflight tool for an Air Force space defense program, led OGC-compliant filter parsers and web services in the SSA Software Suite (C#/Java), and built STK-to-CesiumJS orbit visualization.'
+          text: 'Integration specialist at ADF-East: Coherent Change Detection tooling, an STK SAR-glint look-angle tool, a custom STK overflight tool for an Air Force space defense program, OGC web services in the SSA Software Suite, and STK-to-CesiumJS visualization.'
         },
         {
           role: 'Scitor Corporation — Senior Systems Engineer',
           dates: 'August 2007 – July 2012',
-          text: 'DevOps lead and scrum master for Space-Track.org under JFCC SPACE/J3, rebuilding the site around 90M+ records and 30,000+ accounts with REST/URIQuery services replacing legacy PERL query pages, and enabling secure transfer across SIPRNET and NIPRNET. Created a conjunction tracking database and back-end API, a W3C-compliant XML generator, a NIEM-compliant space schema, and Conjunction Summary Message interfaces; partnered with AGI on a conjunction risk-reduction prototype. Designed the JSpOC knowledge management system, supported CFE Program transfer from AFSPC to USSTRATCOM, and served as primary editor for the JFCC SPACE FOC CONOPS.'
+          text: 'DevOps lead and scrum master for Space-Track.org under JFCC SPACE/J3 — rebuilt the site around 90M+ records and 30,000+ accounts with REST services across SIPRNET and NIPRNET. Built conjunction tracking and CSM interfaces, designed the JSpOC knowledge management system, and edited the JFCC SPACE FOC CONOPS.'
         },
         {
           role: 'United States Air Force — Officer, Space Operations, 3rd Space Operations Squadron',
           dates: 'May 2001 – August 2007',
-          text: 'Chief of Ground Systems Engineering (2006–2007): owned ground system procedure review including cryptographic key rollover, wrote the 50th Space Wing classified status reporting system, and drafted a connectivity program from STRATCOM Commander requirements that was briefed and implemented as a test plan by the 50th Space Wing and U.S. Army Forces Strategic Command. ECHO Crew Commander (2006): led a 10-member Combat Mission Ready crew and emergency response for 160 personnel across two operations centers, managing 900+ satellite supports on $3.9B in space assets at a 99.9% mission success rate. Wideband Global Satellite Engineer / Chief of Procedures (2005–2006): certified in the first military class of the Boeing WGS Space Vehicle Operator course; on the government CCS-C project team at ISI Colorado Springs overseeing Boeing, Integral Systems, SI International, RT Logic, and Aerospace, and wrote 3,000+ lines of TAO scripts forming the constellation’s operational command and control suite. Weapons and Tactics Officer (2003–2004): developed tactics for the $2.1B DSCS constellation and Wideband Global, designed the Army/Air Force command-and-telemetry cross-flow concept, and built 500+ HMI screens for the CCS-C ground system. Flight training and instruction (2001–2003): 100+ hours UH-1H (Army Rotor Wing Qualification, Ft. Rucker) and 130+ hours T-34 (Naval Undergraduate Pilot Training); instructed 500+ cadets at the USAF Academy Athletic Department.'
+          text: 'Chief of Ground Systems Engineering (2006–2007): owned ground procedure review including cryptographic key rollover; wrote the 50th Space Wing classified status reporting system. ECHO Crew Commander (2006): led a 10-member crew managing 900+ satellite supports on $3.9B in space assets at 99.9% mission success. WGS Engineer / Chief of Procedures (2005–2006): first military Boeing WGS operator class; wrote 3,000+ lines of TAO scripts forming the constellation’s command and control suite. Weapons and Tactics Officer (2003–2004): tactics for the $2.1B DSCS constellation; built 500+ HMI screens for the CCS-C ground system. Flight training (2001–2003): 230+ rotor and fixed-wing hours; instructed 500+ cadets at the USAF Academy.'
         }
-      ],
-
-      links: [
-        ['digitalarsenal.io', 'https://digitalarsenal.io', 'OrbPro & company site'],
-        ['digitalarsenal.github.io/space-data-network', 'https://digitalarsenal.github.io/space-data-network', 'SDN documentation'],
-        ['github.com/DigitalArsenal/space-data-network', 'https://github.com/DigitalArsenal/space-data-network', 'SDN source'],
-        ['digitalarsenal.github.io/flatbuffers', 'https://digitalarsenal.github.io/flatbuffers', 'FlatBuffers WASM documentation'],
-        ['github.com/DigitalArsenal/flatbuffers', 'https://github.com/DigitalArsenal/flatbuffers', 'FlatBuffers WASM source'],
-        ['digitalarsenal.github.io/flatsql', 'https://digitalarsenal.github.io/flatsql', 'FlatSQL documentation'],
-        ['github.com/DigitalArsenal/flatsql', 'https://github.com/DigitalArsenal/flatsql', 'FlatSQL source'],
-        ['digitalarsenal.github.io/hd-wallet-wasm', 'https://digitalarsenal.github.io/hd-wallet-wasm', 'HD Wallet documentation'],
-        ['github.com/DigitalArsenal/hd-wallet-wasm', 'https://github.com/DigitalArsenal/hd-wallet-wasm', 'HD Wallet source'],
-        ['github.com/DigitalArsenal/spacedatastandards.org', 'https://github.com/DigitalArsenal/spacedatastandards.org', 'Space Data Standards'],
-        ['github.com/DigitalArsenal/tudat-wasm', 'https://github.com/DigitalArsenal/tudat-wasm', 'Tudat-WASM source'],
-        ['github.com/DigitalArsenal/basilisk', 'https://github.com/DigitalArsenal/basilisk', 'Basilisk-WASM source'],
-        ['sdataplab.org', 'https://sdataplab.org', 'SDA TAP LAB'],
-        ['tap.spaceaware.io', 'https://tap.spaceaware.io', 'TAP LAB space catalog explorer'],
-        ['spaceaware.io', 'https://spaceaware.io', 'SpaceAware platform (API at api.spaceaware.io)'],
-        ['sbi.spaceaware.io', 'https://sbi.spaceaware.io', 'Space-Based Interceptor demo'],
-        ['saberastro.com', 'https://saberastro.com', 'Saber Astronautics'],
-        ['lycancpi.com', 'https://lycancpi.com', 'Lycan CPI'],
-        ['space-track.org', 'https://www.space-track.org', 'JFCC SPACE public catalog'],
-        ['linkedin.com/in/tj-k-5754554', 'https://linkedin.com/in/tj-k-5754554/', 'LinkedIn'],
-        ['tjkoury.sol', 'https://www.sns.id/domain?domain=tjkoury', 'Solana Name Service domain']
       ]
     };
 
@@ -558,8 +397,8 @@
       var content = [
         { text: R.name, fontSize: 22, bold: true, alignment: 'center', characterSpacing: 2, margin: [0, 0, 0, 2] },
         { text: R.title + ', ' + R.company, fontSize: 10, alignment: 'center', color: '#444444', margin: [0, 0, 0, 2] },
-        { text: R.email + '  \u00b7  digitalarsenal.io  \u00b7  github.com/DigitalArsenal  \u00b7  linkedin.com/in/tj-k-5754554  \u00b7  ' + R.sol, fontSize: 8.5, alignment: 'center', color: '#666666', margin: [0, 0, 0, 2] },
-        { text: R.clearance, fontSize: 8.5, alignment: 'center', color: '#666666', margin: [0, 0, 0, 14] },
+        { text: R.email + '  ·  digitalarsenal.io  ·  github.com/DigitalArsenal  ·  linkedin.com/in/tj-k-5754554  ·  ' + R.sol, fontSize: 8.5, alignment: 'center', color: '#666666', margin: [0, 0, 0, 2] },
+        { text: R.education, fontSize: 8.5, alignment: 'center', color: '#666666', margin: [0, 0, 0, 14] },
 
         hd('SUMMARY'), ln(),
         { text: R.summary, fontSize: 9.5, lineHeight: 1.4, margin: [0, 0, 0, 6] },
@@ -579,19 +418,6 @@
         content.push({ text: e.role, fontSize: 10, bold: true, margin: [0, 6, 0, 1] });
         content.push({ text: e.dates, fontSize: 8.5, italics: true, color: '#777777', margin: [0, 0, 0, 2] });
         content.push({ text: e.text, fontSize: 9, lineHeight: 1.35, color: '#333333', margin: [0, 0, 0, 4] });
-      });
-
-      content.push(hd('LINKS'));
-      content.push(ln());
-      R.links.forEach(function(l, i) {
-        content.push({
-          text: [
-            { text: (i + 1) + '. ', fontSize: 8, color: '#999999' },
-            { text: l[0], link: l[1], color: '#333333', fontSize: 8.5 },
-            { text: ' \u2014 ' + l[2], fontSize: 8, color: '#999999' }
-          ],
-          margin: [0, 0, 0, 1]
-        });
       });
 
       var dd = {
@@ -644,7 +470,7 @@
       children.push(new D.Paragraph({
         children: [
           new D.ExternalHyperlink({ children: [new D.TextRun({ text: 'digitalarsenal.io', style: 'Hyperlink', size: 18 })], link: R.web }),
-          new D.TextRun({ text: '  \u00b7  ', size: 18, color: '999999' }),
+          new D.TextRun({ text: '  ·  ', size: 18, color: '999999' }),
           new D.ExternalHyperlink({ children: [new D.TextRun({ text: 'github.com/DigitalArsenal', style: 'Hyperlink', size: 18 })], link: R.github }),
           new D.TextRun({ text: '  ·  ', size: 18, color: '999999' }),
           new D.ExternalHyperlink({ children: [new D.TextRun({ text: 'LinkedIn', style: 'Hyperlink', size: 18 })], link: 'https://linkedin.com/in/tj-k-5754554/' }),
@@ -654,7 +480,7 @@
         spacing: { after: 60 }
       }));
       children.push(new D.Paragraph({
-        children: [new D.TextRun({ text: R.clearance, size: 18, color: '666666', font: 'Georgia' })],
+        children: [new D.TextRun({ text: R.education, size: 18, color: '666666', font: 'Georgia' })],
         alignment: D.AlignmentType.CENTER,
         spacing: { after: 300 }
       }));
@@ -679,18 +505,6 @@
         children.push(new D.Paragraph({ children: [new D.TextRun({ text: e.text, size: 19, font: 'Georgia', color: '333333' })], spacing: { after: 100 } }));
       });
 
-      heading('LINKS');
-      R.links.forEach(function(l, i) {
-        children.push(new D.Paragraph({
-          children: [
-            new D.TextRun({ text: (i + 1) + '. ', size: 17, color: '999999', font: 'Georgia' }),
-            new D.ExternalHyperlink({ children: [new D.TextRun({ text: l[0], style: 'Hyperlink', size: 17 })], link: l[1] }),
-            new D.TextRun({ text: ' \u2014 ' + l[2], size: 17, color: '999999', font: 'Georgia' })
-          ],
-          spacing: { after: 30 }
-        }));
-      });
-
       var doc = new D.Document({ sections: [{ properties: { page: { margin: { top: 720, right: 720, bottom: 720, left: 720 } } }, children: children }] });
       D.Packer.toBlob(doc).then(function(blob) {
         var u = URL.createObjectURL(blob);
@@ -710,7 +524,7 @@
       var mc = qr.getModuleCount();
       var art = '';
       for (var r = 0; r < mc; r++) {
-        for (var c = 0; c < mc; c++) art += qr.isDark(r, c) ? '\u2588\u2588' : '  ';
+        for (var c = 0; c < mc; c++) art += qr.isDark(r, c) ? '██' : '  ';
         art += '\n';
       }
 
@@ -718,12 +532,11 @@
       var th = '-'.repeat(76);
       var t = ln + '\n' + R.name.toUpperCase() + '\n' + R.title + ', ' + R.company + '\n' +
         R.email + '  |  digitalarsenal.io  |  github.com/DigitalArsenal\n' +
-        'linkedin.com/in/tj-k-5754554  |  ' + R.sol + '\n' + R.clearance + '\n' + ln + '\n\n' +
+        'linkedin.com/in/tj-k-5754554  |  ' + R.sol + '\n' + R.education + '\n' + ln + '\n\n' +
         'Scan or visit: ' + R.qr + '\n\n' + art + '\n' +
         'SUMMARY\n' + th + '\n' + R.summary + '\n\n' +
         'PRODUCTS & OPEN SOURCE\n' + th + '\n' + R.projects.map(function(p) { return '  ' + p.name + '\n  ' + p.text; }).join('\n\n') + '\n\n' +
         'PROFESSIONAL EXPERIENCE\n' + th + '\n' + R.experience.map(function(e) { return '  ' + e.role + '\n  ' + e.dates + '\n  ' + e.text; }).join('\n\n') + '\n\n' +
-        'LINKS\n' + th + '\n' + R.links.map(function(l, i) { return '  [' + (i+1) + '] ' + l[1] + ' \u2014 ' + l[2]; }).join('\n') + '\n\n' +
         ln + '\nGenerated ' + new Date().toLocaleDateString() + '  |  Interactive: ' + R.qr + '\n' + ln;
 
       var blob = new Blob([t], { type: 'text/plain;charset=utf-8' });
